@@ -203,6 +203,7 @@ INPUT:focus {
 .prbanner {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .prbanner__left {
@@ -379,4 +380,392 @@ INPUT:focus {
     color: rgba(241, 109, 127, 1);
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+/* PRCARDS */
+
+/* prcards_up_text */
+
+.prcards {
+    margin-top: 100px;
+}
+
+.prcards__up_text {
+    text-align: center;
+    height: 111px;
+
+}
+
+.prcards__up_text_one {
+
+    font-family: 'Lato';
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(34, 34, 34, 1);
+
+
+}
+
+.prcards__up_text_two {
+    margin-top: 16px;
+    font-family: 'Lato';
+    font-size: 14px;
+    color: rgba(159, 159, 159, 1);
+}
+
+/* prcards__left */
+
+/* prcards__left__one */
+
+.prcards__left__one {
+    height: 342px;
+    width: 261px;
+}
+
+.prcards__left__one_img {
+    background-image: url(img/prcards_one.png);
+    height: 280px;
+    width: 261px;
+}
+
+.prcards__left__one__block_text {
+    height: 62px;
+}
+
+.prcards__left__one__text {
+    font-family: 'Lato';
+    font-size: 13px;
+    color: rgba(34, 34, 34, 1);
+    padding-top: 19px;
+    padding-left: 14px;
+    text-transform: uppercase;
+}
+
+.prcards__left__one__price {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(241, 109, 127, 1);
+    padding-top: 10px;
+    padding-left: 14px;
+    text-transform: uppercase;
+}
+
+/* prcards__left__two */
+
+.prcards__left__two {
+    height: 342px;
+    width: 261px;
+}
+
+.prcards__left__two_img {
+    background-image: url(img/prcards_two.png);
+    height: 280px;
+    width: 261px;
+}
+
+.prcards__left__two__block_text {
+    height: 62px;
+}
+
+.prcards__left__two__text {
+    font-family: 'Lato';
+    font-size: 13px;
+    color: rgba(34, 34, 34, 1);
+    padding-top: 19px;
+    padding-left: 14px;
+    text-transform: uppercase;
+}
+
+.prcards__left__two__price {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(241, 109, 127, 1);
+    padding-top: 10px;
+    padding-left: 14px;
+    text-transform: uppercase;
+}
+
+/* prcards__left__three */
+
+.prcards__left__three {
+    height: 342px;
+    width: 261px;
+}
+
+.prcards__left__three_img {
+    background-image: url(img/prcards_three.png);
+    height: 280px;
+    width: 261px;
+}
+
+.prcards__left__three__block_text {
+    height: 62px;
+}
+
+.prcards__left__three__text {
+    font-family: 'Lato';
+    font-size: 13px;
+    color: rgba(34, 34, 34, 1);
+    padding-top: 19px;
+    padding-left: 14px;
+    text-transform: uppercase;
+}
+
+.prcards__left__three__price {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(241, 109, 127, 1);
+    padding-top: 10px;
+    padding-left: 14px;
+    text-transform: uppercase;
+}
+
+/* prcards__left__four */
+
+.prcards__left__four {
+    height: 342px;
+    width: 261px;
+}
+
+.prcards__left__four_img {
+    background-image: url(img/prcards_four.png);
+    height: 280px;
+    width: 261px;
+}
+
+.prcards__left__four__block_text {
+    height: 62px;
+}
+
+.prcards__left__four__text {
+    font-family: 'Lato';
+    font-size: 13px;
+    color: rgba(34, 34, 34, 1);
+    padding-top: 19px;
+    padding-left: 14px;
+    text-transform: uppercase;
+}
+
+.prcards__left__four__price {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(241, 109, 127, 1);
+    padding-top: 10px;
+    padding-left: 14px;
+    text-transform: uppercase;
+}
+
+/* prcards__right__one */
+
+.prcards__right__one {
+    height: 342px;
+    width: 261px;
+}
+
+.prcards__right__one_img {
+    background-image: url(img/prcards_five.png);
+    height: 280px;
+    width: 261px;
+}
+
+.prcards__right__one__block_text {
+    height: 62px;
+}
+
+.prcards__right__one__text {
+    font-family: 'Lato';
+    font-size: 13px;
+    color: rgba(34, 34, 34, 1);
+    padding-top: 19px;
+    padding-left: 14px;
+    text-transform: uppercase;
+}
+
+.prcards__right__one__price {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(241, 109, 127, 1);
+    padding-top: 10px;
+    padding-left: 14px;
+    text-transform: uppercase;
+}
+
+
+/* prcards__right__two */
+
+.prcards__right__two {
+    height: 342px;
+    width: 261px;
+}
+
+.prcards__right__two_img {
+    background-image: url(img/prcards_six.png);
+    height: 280px;
+    width: 261px;
+}
+
+.prcards__right__two__block_text {
+    height: 62px;
+}
+
+.prcards__right__two__text {
+    font-family: 'Lato';
+    font-size: 13px;
+    color: rgba(34, 34, 34, 1);
+    padding-top: 19px;
+    padding-left: 14px;
+    text-transform: uppercase;
+}
+
+.prcards__right__two__price {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(241, 109, 127, 1);
+    padding-top: 10px;
+    padding-left: 14px;
+    text-transform: uppercase;
+}
+
+/* prcards__right__three */
+
+.prcards__right__three {
+    height: 342px;
+    width: 261px;
+}
+
+.prcards__right__three_img {
+    background-image: url(img/prcards_seven.png);
+    height: 280px;
+    width: 261px;
+}
+
+.prcards__right__three__block_text {
+    height: 62px;
+}
+
+.prcards__right__three__text {
+    font-family: 'Lato';
+    font-size: 13px;
+    color: rgba(34, 34, 34, 1);
+    padding-top: 19px;
+    padding-left: 14px;
+    text-transform: uppercase;
+}
+
+.prcards__right__three__price {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(241, 109, 127, 1);
+    padding-top: 10px;
+    padding-left: 14px;
+    text-transform: uppercase;
+}
+
+/* prcards__right__four */
+
+.prcards__right__four {
+    height: 342px;
+    width: 261px;
+}
+
+.prcards__right__four_img {
+    background-image: url(img/prcards_eight.png);
+    height: 280px;
+    width: 261px;
+}
+
+.prcards__right__four__block_text {
+    height: 62px;
+}
+
+.prcards__right__four__text {
+    font-family: 'Lato';
+    font-size: 13px;
+    color: rgba(34, 34, 34, 1);
+    padding-top: 19px;
+    padding-left: 14px;
+    text-transform: uppercase;
+}
+
+.prcards__right__four__price {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(241, 109, 127, 1);
+    padding-top: 10px;
+    padding-left: 14px;
+    text-transform: uppercase;
+}
+
+/* prcards__position */
+
+.prcards__position_left_one {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.prcards__position_left_two {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.prcards__position_right_one {
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+.prcards__position_right_two {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.proba {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* prcards__button_block */
+
+.prcards__button {
+    display: flex;
+    justify-content: center;
+}
+
+.prcards__button_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 79px;
+    height: 48px;
+    width: 212px;
+    background-color: rgba(241, 109, 127, 1);
+}
+
+.prcards__button_text {
+    height: 11px;
+    width: 145px;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+.prcards__button_arrow {
+    padding-bottom: 5px;
+    height: 7px;
+    width: 15px;
+    font-family: 'FontAwesome';
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
 }
