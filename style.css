@@ -195,3 +195,188 @@ INPUT:focus {
     line-height: 26px;
     text-transform: uppercase;
 }
+
+/* prbanner__left */
+
+/* prbanner__left_one */
+
+.prbanner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prbanner__left {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 560px;
+}
+
+.prbanner__lefr_one {
+    margin-top: 98px;
+    background-image: url(img/prbanner_one_men.png);
+    height: 542px;
+    width: 560px;
+
+}
+
+.prbanner__lefr_one-text_block {
+    margin-top: 26px;
+    height: 82px;
+    width: 175px;
+    background-color: rgba(255, 255, 255, 1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prbanner__lefr_one-text {
+
+    height: 50px;
+    width: 136px;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 900;
+    color: rgba(34, 34, 34, 1);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.prbanner__lefr_one-text_color {
+
+    font-family: 'Lato';
+    font-size: 29px;
+    font-weight: 900;
+    color: rgba(241, 109, 127, 1);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+/* prbanner__left_two */
+
+.prbanner__lefr_two {
+    margin-top: 20px;
+    background-image: url(img/prbanner_accesories.png);
+    height: 261px;
+    width: 560px;
+}
+
+.prbanner__lefr_two-text_block {
+
+    margin-top: 25px;
+    height: 82px;
+    width: 225px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.prbanner__lefr_two-text {
+    height: 50px;
+    width: 189px;
+    font-family: 'Lato';
+    font-size: 17px;
+    font-weight: 900;
+    color: rgba(34, 34, 34, 1);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.prbanner__lefr_two-text_color {
+    font-family: 'Lato';
+    font-size: 29px;
+    font-weight: 900;
+    color: rgba(241, 109, 127, 1);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+
+/* prbanner__right_one */
+
+.prbanner__right {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 560px;
+}
+
+.prbanner__right_one {
+    margin-top: 98px;
+    background-image: url(img/prbanner_two_women.png);
+    height: 261px;
+    width: 560px;
+}
+
+.prbanner__right_one-text_block {
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 82px;
+    width: 162px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.prbanner__right_one-text {
+    height: 50px;
+    width: 125px;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 900;
+    color: rgba(34, 34, 34, 1);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.prbanner__right_one-text_color {
+    font-family: 'Lato';
+    font-size: 30px;
+    font-weight: 900;
+    color: rgba(241, 109, 127, 1);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+/* prbanner__right_two */
+
+.prbanner__right_two {
+    margin-top: 20px;
+    background-image: url(img/prbanner_kids.png);
+    height: 542px;
+    width: 560px;
+}
+
+.prbanner__right_two-text_block {
+    margin-top: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 82px;
+    width: 180px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.prbanner__right_two-text {
+    height: 50px;
+    width: 140px;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 900;
+    color: rgba(34, 34, 34, 1);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.prbanner__right_two-text_color {
+    font-family: 'Lato';
+    font-size: 29px;
+    font-weight: 900;
+    color: rgba(241, 109, 127, 1);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
