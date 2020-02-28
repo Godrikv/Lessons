@@ -769,10 +769,11 @@ INPUT:focus {
     font-weight: bold;
     color: rgba(255, 255, 255, 1);
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .prcards__button_arrow {
-    padding-bottom: 5px;
+    padding-bottom: 12px;
     height: 7px;
     width: 15px;
     font-family: 'FontAwesome';
@@ -974,4 +975,152 @@ INPUT:focus {
 
     display: flex;
     flex-direction: column;
+}
+
+/* review */
+
+.review {
+    margin-top: 97px;
+    height: 438px;
+    width: 100%;
+    background-image: url(img/review_back.png);
+}
+
+/* review_left */
+
+.review_left {
+    padding-top: 111px;
+    width: 569px;
+    display: flex;
+}
+
+.review_left_img {
+    height: 83px;
+    width: 83px;
+    border-radius: 83px;
+}
+
+.review_left_description {
+    padding-left: 28px;
+    display: flex;
+    flex-direction: column;
+    height: 197px;
+    width: 426px;
+}
+
+.review_left_description_text-up {
+
+    width: 426px;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: italic;
+    color: rgba(34, 34, 36, 1);
+    letter-spacing: 0.03em;
+    line-height: 26px;
+}
+
+.review_left_description_text-lover {
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 300;
+    color: rgba(34, 34, 36, 1);
+
+}
+
+.review_left_description_text-lover_color {
+    padding-top: 16px;
+    width: 82px;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(241, 109, 127, 1);
+
+}
+
+.review_left_description_rectangle {
+    margin-top: 41px;
+    height: 4px;
+    width: 38px;
+    background-color: rgba(214, 214, 214, 1);
+}
+
+.review_left_description_rectangle-active {
+    background-color: rgba(241, 109, 127, 1);
+
+}
+
+.review_left_description_position {
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+    height: 4px;
+}
+
+/* review_right */
+
+.review_main {
+    display: flex;
+}
+
+.review_right {
+margin-top: 70px;
+    width: 569px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.review_right_text {
+    height: 41px;
+    width: 277px;
+    font-family: 'Lato';
+    font-size: 24px;
+    color: rgba(34, 34, 36, 1);
+    text-align: center;
+
+    text-transform: uppercase;
+}
+
+.review_right_text_color {
+    font-family: 'Lato';
+    font-size: 14px;
+    color: rgba(34, 34, 36, 1);
+    text-align: center;
+
+}
+
+.review_right_reg {
+    margin-top: 35px;
+    height: 46px;
+    width: 386px;
+}
+
+.review_right_reg_form {
+    font-family: 'Lato';
+    font-size: 14px;
+    color: rgba(34, 34, 36, 1);
+    letter-spacing: 0.03em;
+    padding-left: 28px;
+    position: absolute;
+    height: 46px;
+    width: 334px;
+    background-color: rgba(225, 225, 225, 1);
+    border-radius: 23px;
+}
+
+.review_right_reg_button {
+    line-height: 3em;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 282px;
+    position: absolute;
+    height: 46px;
+    width: 104px;
+    background-color: rgba(241, 109, 127, 1);
+    border-radius: 0px 23px 23px 0px;
+}
+
+.review_right_reg_button_link {
+    color: rgba(255, 255, 255, 1);
 }
