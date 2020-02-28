@@ -1063,7 +1063,7 @@ INPUT:focus {
 }
 
 .review_right {
-margin-top: 70px;
+    margin-top: 70px;
     width: 569px;
     display: flex;
     justify-content: center;
@@ -1123,4 +1123,222 @@ margin-top: 70px;
 
 .review_right_reg_button_link {
     color: rgba(255, 255, 255, 1);
+}
+
+/* LOGO */
+
+.footer {
+    margin-top: 109px;
+}
+
+.footer_main {
+    display: flex;
+
+}
+
+.footer__first {
+    display: flex;
+    width: 430px;
+    flex-direction: column;
+}
+
+.footer__first_logo {
+    display: flex;
+}
+
+.footer__first_brand {
+    margin-left: 13px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-size: 27px;
+    font-weight: 300;
+    color: rgba(62, 62, 64, 1);
+    text-align: center;
+    letter-spacing: 0.03em;
+    line-height: 32px;
+    text-transform: uppercase;
+
+}
+
+.footer__first_brand_color {
+    font-family: 'Lato';
+    font-size: 26px;
+    font-weight: 900;
+    color: rgba(241, 109, 127, 1);
+    text-align: center;
+    letter-spacing: 0.03em;
+    line-height: 32px;
+    text-transform: uppercase;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.footer__first_text {
+    margin-top: 29px;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(137, 137, 137, 1);
+
+    letter-spacing: 0.03em;
+    line-height: 24px;
+}
+
+/* footer__second */
+
+.footer__second {
+    margin-left: 61.4px;
+    display: flex;
+    width: 101px;
+    flex-direction: column;
+}
+
+.footer__second_head {
+    height: 14px;
+    width: 94px;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(241, 109, 127, 1);
+    letter-spacing: 0.03em;
+    line-height: 26px;
+}
+
+.footer__second_list {
+    margin-top: 60px;
+}
+
+.footer__second_list_count {
+    width: 101px;
+    font-family: 'Lato';
+    font-size: 15px;
+    color: rgba(137, 137, 137, 1);
+    letter-spacing: 0.03em;
+    line-height: 42px;
+}
+
+/* footer__third */
+
+.footer__third {
+    margin-left: 120px;
+    display: flex;
+    width: 144px;
+    flex-direction: column;
+}
+
+.footer__third_head {
+    height: 14px;
+    width: 144px;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(241, 109, 127, 1);
+    letter-spacing: 0.03em;
+    line-height: 26px;
+}
+
+.footer__third_list {
+    margin-top: 60px;
+}
+
+.footer__third_list_count {
+    width: 144px;
+    font-family: 'Lato';
+    font-size: 15px;
+    color: rgba(137, 137, 137, 1);
+    letter-spacing: 0.03em;
+    line-height: 42px;
+}
+
+/* footer__fourth */
+
+.footer__fourth {
+    margin-left: 87px;
+    display: flex;
+    width: 154px;
+    flex-direction: column;
+}
+
+.footer__fourth_head {
+    height: 14px;
+    width: 156px;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(241, 109, 127, 1);
+
+    letter-spacing: 0.03em;
+    line-height: 26px;
+}
+
+.footer__fourth_list {
+    margin-top: 60px;
+}
+
+.footer__fourth_list_count {
+    width: 144px;
+    font-family: 'Lato';
+    font-size: 15px;
+    color: rgba(137, 137, 137, 1);
+    letter-spacing: 0.03em;
+    line-height: 42px;
+}
+
+/* footer */
+
+
+
+.footer_bottom {
+    margin-top: 65px;
+    width: 100%;
+    background-color: rgba(230, 230, 230, 1);
+    height: 79px;
+}
+
+.footer_bottom_position {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer_bottom_ear {
+    margin-top: 33px;
+    height: 14px;
+    width: 260px;
+    font-family: 'Lato';
+    font-size: 16px;
+    color: rgba(122, 122, 122, 1);
+    text-align: right;
+    letter-spacing: 0.03em;
+
+}
+
+.footer_bottom_icon {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    height: 32px;
+    width: 191px;
+}
+
+.footer_bottom_size {
+    height: 32px;
+    width: 32px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_bottom_size_color {
+    height: 32px;
+    width: 32px;
+    background-color: rgba(241, 109, 127, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
