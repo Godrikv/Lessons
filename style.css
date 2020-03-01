@@ -220,7 +220,7 @@ INPUT:focus {
     text-transform: uppercase;
 }
 
-.menu__link {}
+
 
 .menu__link:hover {
     color: rgba(255, 255, 255, 1);
