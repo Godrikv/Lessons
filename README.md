@@ -1,3 +1,3 @@
 # Lessons
 
-Hi, my name is Peresvet. Im from Russian.
+Hi, my name is Peresvet.
