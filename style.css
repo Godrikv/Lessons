@@ -1390,6 +1390,8 @@ input[type=range]::-webkit-slider-thumb {
 
 /* sortby */
 
+
+
 .sortby {
     width: 130px;
     display: flex;
