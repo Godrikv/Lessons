@@ -589,8 +589,6 @@ INPUT:focus {
 .discount {
     margin-top: 113px;
     display: flex;
-
-
 }
 
 /* discount__left */
@@ -1498,7 +1496,7 @@ input[type=range]::-webkit-slider-thumb {
 .discount__check {
     background-color: rgba(34, 34, 36, 1);
     height: 341px;
-margin-top: 1500px;
+    margin-top: 1500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1584,7 +1582,7 @@ margin-top: 1500px;
     display: flex;
     align-items: center;
     flex-direction: column;
-   
+
 }
 
 .women_col {
@@ -1633,10 +1631,10 @@ margin-top: 1500px;
     font-size: 14px;
     font-weight: bold;
     color: rgba(185, 185, 185, 1);
-    
+
 }
 
-.page_material span{
+.page_material span {
     font-family: 'Lato';
     font-size: 14px;
     font-weight: bold;
@@ -1662,7 +1660,7 @@ margin-top: 1500px;
     flex-wrap: wrap;
 }
 
-.page_filter_block h1{
+.page_filter_block h1 {
     font-family: 'Lato';
     font-size: 14px;
     font-weight: bold;
@@ -1689,7 +1687,7 @@ margin-top: 1500px;
 
 }
 
-.choice_red summary{
+.choice_red summary {
     width: 110px;
     padding-left: 11px;
     font-family: 'Lato';
@@ -1714,7 +1712,7 @@ margin-top: 1500px;
     align-items: center;
     color: rgba(239, 91, 112, 1);
     outline-style: none;
-    
+
 }
 
 .page_butoon h1 {
@@ -1769,8 +1767,3 @@ margin-top: 1500px;
     width: 261px;
     background: url(img/page_four.png) no-repeat center, url(img/page_bg.png);
 }
-
-
-
-
-
