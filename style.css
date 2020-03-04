@@ -596,7 +596,7 @@ INPUT:focus {
 /* discount__left */
 
 .discount__left {
-    background-image: url(img/discount.png);
+    background: url(img/discount_bg.png) no-repeat center, url(img/discount.png) no-repeat center;
     height: 529px;
     width: 767px;
 }
@@ -786,7 +786,7 @@ INPUT:focus {
     margin-top: 97px;
     height: 438px;
     width: 100%;
-    background-image: url(img/review_back.png);
+    background: url(img/review_bg.png) no-repeat center, url(img/review_back.png) no-repeat center;
 }
 
 /* review_left */
@@ -1198,6 +1198,7 @@ INPUT:focus {
 /* menu__left */
 
 .menu__left {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     margin-top: 124px;
@@ -1271,6 +1272,7 @@ INPUT:focus {
     margin-top: 10px;
     margin-left: 56px;
     display: flex;
+    height: 74px;
 }
 
 .filters__trending-now_main {
@@ -1392,6 +1394,7 @@ input[type=range]::-webkit-slider-thumb {
 
 
 .sortby {
+    position: absolute;
     width: 130px;
     display: flex;
     justify-content: space-between;
@@ -1399,7 +1402,7 @@ input[type=range]::-webkit-slider-thumb {
     font-size: 14px;
     color: rgba(111, 110, 110, 1);
     margin-left: 293px;
-    margin-top: 20px;
+    margin-top: 137px;
 }
 
 
@@ -1413,15 +1416,15 @@ input[type=range]::-webkit-slider-thumb {
 
 
 .show {
-    margin-top: 20px;
+    position: absolute;
     width: 119px;
     display: flex;
     justify-content: space-between;
     font-family: 'Lato';
     font-size: 14px;
     color: rgba(111, 110, 110, 1);
-    margin-left: 30px;
-    padding-left: 20px;
+    margin-left: 470px;
+    margin-top: 137px;
 }
 
 .show_name_name {
@@ -1433,16 +1436,18 @@ input[type=range]::-webkit-slider-thumb {
 /* parcards_two */
 
 .parcards_two {
+    position: absolute;
     width: 848px;
     margin-left: 287px;
-    margin-top: 58px;
+    margin-top: 225px;
 }
 
 /* nav__footer */
 
 .nav__footer {
+    position: absolute;
     margin-left: 287px;
-    margin-top: 20px;
+    margin-top: 1460px;
     width: 847px;
     display: flex;
     justify-content: space-between;
@@ -1493,7 +1498,7 @@ input[type=range]::-webkit-slider-thumb {
 .discount__check {
     background-color: rgba(34, 34, 36, 1);
     height: 341px;
-
+margin-top: 1500px;
     display: flex;
     align-items: center;
     justify-content: center;
