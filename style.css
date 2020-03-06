@@ -185,6 +185,11 @@ details[open]>summary::after {
     display: flex;
 }
 
+.header__form_block:hover {
+    outline-style: none;
+    box-shadow: 0 0 15px rgb(177, 165, 165);
+}
+
 .header__form_text {
 
     height: 38px;
@@ -204,9 +209,18 @@ details[open]>summary::after {
     background-color: rgba(255, 255, 255, 1);
 }
 
+.fa-search {
+    color: rgba(164, 164, 164, 1);
+}
+
+.header__form_search:hover .fa-search {
+    color: white;
+}
+
 .header__form_search:hover {
     outline-style: none;
-    box-shadow: 0 0 15px #f16d7f;
+    background-color: #f16d7f;
+    border: 1px solid #f16d7f;
 }
 
 INPUT:focus {
@@ -1152,17 +1166,17 @@ INPUT:focus {
 
 .footer_bottom_size:hover {
     background-color: rgba(241, 109, 127, 1);
-
+    outline-style: none;
 }
 
-.footer_bottom_size_color {
-    height: 32px;
-    width: 32px;
-    background-color: rgba(241, 109, 127, 1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footer_icon_color {
+    color: rgba(178, 178, 178, 1);
 }
+
+.footer_bottom_size:hover .footer_icon_color {
+    color: rgba(247, 247, 248, 1);
+}
+
 
 
 /* CHECKOUT */
