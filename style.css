@@ -736,19 +736,16 @@ INPUT:focus {
 .prcards {
   margin-top: 100px;
 }
-
 .prcards__up_text {
   text-align: center;
   height: 111px;
 }
-
 .prcards__up_text_one {
   font-family: "Lato";
   font-size: 30px;
   font-weight: bold;
   color: #222222;
 }
-
 .prcards__up_text_two {
   margin-top: 16px;
   font-family: "Lato";
@@ -762,36 +759,29 @@ INPUT:focus {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 .prcards__box_main {
   width: 263px;
   margin-bottom: 40px;
   position: relative;
 }
-
 .prcards__box_main:hover {
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.16);
 }
-
 .prcards__box_img {
   width: 100%;
 }
-
-.prcards__box_main:hover .prcards__box_img {
+.prcards__box_img:hover .prcards__box_img {
   transition: all 1s;
   filter: brightness(40%);
 }
-
 .prcards__box_content {
   padding: 16px;
 }
-
 .prcards__box_name {
   font-size: 13px;
   color: #222222;
   text-transform: uppercase;
 }
-
 .prcards__box_price {
   font-size: 16px;
   font-weight: bold;
@@ -799,7 +789,6 @@ INPUT:focus {
   text-transform: uppercase;
   margin-top: 16px;
 }
-
 .prcards__box_add {
   font-size: 13px;
   font-weight: bold;
@@ -814,16 +803,13 @@ INPUT:focus {
   top: 97px;
   left: 70px;
 }
-
 .prcards__box_cart {
   margin-right: 8px;
 }
-
-.prcards__box_main:hover .prcards__box_add {
+.prcards__box_cart:hover .prcards__box_add {
   transition: all 0.5s;
   display: flex;
 }
-
 .prcards__box_add:hover {
   box-shadow: 0 0 6px #fff;
 }
@@ -1879,7 +1865,6 @@ input[type=range]::-webkit-slider-thumb {
   padding-bottom: 12px;
   align-items: center;
   margin-top: 16px;
-  display: flex;
   width: 144px;
   background-color: white;
   border: 1px solid #eaeaea;
@@ -1913,14 +1898,12 @@ input[type=range]::-webkit-slider-thumb {
   align-items: center;
   color: #ef5b70;
   outline-style: none;
-}
-
-.page_butoon h1 {
-  margin-left: 15px;
   font-family: "Lato";
   font-size: 16px;
   font-weight: bold;
-  color: #ef5b70;
+}
+.page_butoon > img {
+  margin-right: 15px;
 }
 
 /* page_img */
