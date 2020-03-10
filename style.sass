@@ -276,8 +276,9 @@ details[open]>summary::after
     color: rgba(241, 109, 127, 1)
     text-transform: uppercase
     &:hover
-      color: white
-      background-color: $color-site
+      color: black
+      border: 1px solid black
+
   &_button_two
     margin-top: 11px
     margin-bottom: 20px
@@ -585,53 +586,79 @@ INPUT:focus
 
 /* prcards__box */
 
-.prcards__box 
+.prcards__box
   display: flex
   flex-wrap: wrap
   justify-content: space-between
-  &_main
-    width: 263px
-    margin-bottom: 40px
-    position: relative
-    &:hover
-      box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.16)
-  &_img
-    width: 100%
-    &:hover .prcards__box_img
-      transition: all 1s
-      filter: brightness(40%)
-  &_content
-    padding: 16px
-  &_name
-    font-size: 13px
-    color: #222222
-    text-transform: uppercase
-  &_price
-    font-size: 16px
-    font-weight: bold
-    color: $color-site_two
-    text-transform: uppercase
-    margin-top: 16px
-  &_add
-    font-size: 13px
-    font-weight: bold
-    color: #ffffff
-    height: 39px
-    width: 123px
-    border: 1px solid #ffffff
-    display: none
-    align-items: center
-    justify-content: center
-    position: absolute
-    top: 97px
-    left: 70px
-  &_cart
-    margin-right: 8px
-    &:hover .prcards__box_add
-      transition: all 0.5s
-      display: flex
-  &_add:hover
-    box-shadow: 0 0 6px #fff
+
+
+.prcards__box_main
+  width: 263px
+  margin-bottom: 40px
+  position: relative
+
+
+.prcards__box_main:hover
+
+  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.16)
+
+
+.prcards__box_img
+  width: 100%
+
+
+.prcards__box_main:hover .prcards__box_img
+  transition: all 1s
+  filter: brightness(40%)
+
+
+
+.prcards__box_content
+  padding: 16px
+
+
+.prcards__box_name
+  font-size: 13px
+  color: #222222
+  text-transform: uppercase
+
+
+.prcards__box_price
+  font-size: 16px
+  font-weight: bold
+  color: $color-site_two
+  text-transform: uppercase
+  margin-top: 16px
+
+
+
+.prcards__box_add
+  font-size: 13px
+  font-weight: bold
+  color: #ffffff
+  height: 39px
+  width: 123px
+  border: 1px solid #ffffff
+  display: none
+  align-items: center
+  justify-content: center
+  position: absolute
+  top: 97px
+  left: 70px
+
+
+
+.prcards__box_cart
+  margin-right: 8px
+
+
+.prcards__box_main:hover .prcards__box_add
+  transition: all 0.5s
+  display: flex
+
+
+.prcards__box_add:hover
+  box-shadow: 0 0 6px #fff
 
 /* prcards__button_block */
 
@@ -1120,7 +1147,7 @@ INPUT:focus
 
 .footer__second_list_count:hover 
 
-  color: rgb(177, 160, 160)
+  color: $color-site
 
 
 /* footer__third */
@@ -1156,8 +1183,8 @@ INPUT:focus
   line-height: 42px
 
 
-.footer__third_list_count:hover 
-  color: rgb(177, 160, 160)
+.footer__third_list_count:hover
+  color: $color-site
 
 
 /* footer__fourth */
@@ -1195,8 +1222,8 @@ INPUT:focus
   line-height: 42px
 
 
-.footer__fourth_list_count:hover 
-  color: rgb(177, 160, 160)
+.footer__fourth_list_count:hover
+  color: $color-site
 
 
 /* footer */
@@ -1361,7 +1388,8 @@ INPUT:focus
   font-size: 14px
   color: rgba(111, 110, 110, 1)
   line-height: 33px
-
+  &:hover
+    color: $color-site
 
 /* filters */
 
@@ -1382,8 +1410,7 @@ INPUT:focus
   margin-bottom: 20px
 
 
-.filters__trending-now_content 
-
+.filters__trending-now_content
   width: 176px
   font-family: 'Lato'
   font-size: 14px
@@ -1391,10 +1418,10 @@ INPUT:focus
   word-spacing: 15pt
   line-height: 26px
 
-
 .filters__trending-now_content a 
   color: rgba(111, 110, 110, 1)
-
+  &:hover
+    color: $color-site
 
 
 /* filters__size */
@@ -1404,8 +1431,7 @@ INPUT:focus
   width: 236px
 
 
-.filters__size_content_one 
-  margin-left: 23px
+.filters__size_content_one
   margin-top: 10px
   width: 195px
   font-family: 'OpenSans'
@@ -1418,10 +1444,10 @@ INPUT:focus
 
 .filters__size_content_one a 
   color: rgba(111, 110, 110, 1)
+  &:hover
+    color: $color-site
 
-
-.filters__size_content_two 
-  margin-left: 23px
+.filters__size_content_two
   margin-top: 11px
   width: 195px
   font-family: 'OpenSans'
@@ -1435,6 +1461,8 @@ INPUT:focus
 
 .filters__size_content_two a 
   color: rgba(111, 110, 110, 1)
+  &:hover
+    color: $color-site
 
 
 .filters__size_content_two a:nth-child(2n) 
@@ -1500,15 +1528,18 @@ input[type=range]::-webkit-slider-thumb
   font-family: 'Lato'
   font-size: 14px
   color: rgba(111, 110, 110, 1)
-
-
+  &_m:hover
+    color: $color-site
+    cursor: default
 
 
 .sortby_name_name 
   width: 65px
   display: flex
   justify-content: space-between
-
+  &:hover
+    color: $color-site
+    cursor: default
 
 /* show */
 
@@ -1521,12 +1552,18 @@ input[type=range]::-webkit-slider-thumb
   font-size: 14px
   color: rgba(111, 110, 110, 1)
   margin-left: 32px
+  &_m:hover
+    color: $color-site
+    cursor: default
 
 
 .show_name_name 
   width: 50px
   display: flex
   justify-content: space-between
+  &:hover
+    color: $color-site
+    cursor: default
 
 
 /* parcards_two */
@@ -1771,6 +1808,11 @@ input[type=range]::-webkit-slider-thumb
   width: 144px
   background-color: rgba(255, 255, 255, 1)
   border: 1px solid rgba(234, 234, 234, 1)
+  &:hover
+    border: 1px solid $color-site
+    color: $color-site
+    & .choice_red
+      color: $color-site
 
 
 .choice_square 
@@ -1790,9 +1832,6 @@ input[type=range]::-webkit-slider-thumb
   justify-content: space-between
   align-items: center
 
-
-
-
 /* page_butoon */
 
 .page_butoon 
@@ -1808,8 +1847,14 @@ input[type=range]::-webkit-slider-thumb
   font-family: 'Lato'
   font-size: 16px
   font-weight: bold
+  cursor: pointer
   &>img
     margin-right: 15px
+  &:hover
+    background-color: #beb4b4
+    color: #222222
+    border: 1px solid #222222
+    transition: all 1s
 
 
 
@@ -1823,7 +1868,7 @@ input[type=range]::-webkit-slider-thumb
   justify-content: space-between
 
 
-.page_img h1 
+.page_img h2
   margin-top: 122px
   font-family: 'Lato'
   font-size: 24px
