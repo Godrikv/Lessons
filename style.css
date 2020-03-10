@@ -371,6 +371,7 @@ li {
 .header__right_button {
   display: flex;
   padding-left: 19px;
+  position: relative;
 }
 
 summary {
@@ -418,9 +419,6 @@ details[open] > summary::after {
 
 /* Drop */
 /* browse_block */
-.browse_main {
-  position: relative;
-}
 .browse_main[open] .drop_browse {
   display: flex;
   z-index: 1;
@@ -443,15 +441,115 @@ details[open] > summary::after {
 }
 
 /* button_list */
-.button_list {
-  position: relative;
+.button_list[open] .button_block {
+  display: flex;
+  z-index: 1;
 }
 
 .button_block {
   position: absolute;
-  width: 262px;
+  width: 273px;
   background-color: white;
   border-radius: 5px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  left: -57px;
+  top: 34px;
+}
+.button_block_section_one {
+  margin-top: 32px;
+  display: flex;
+}
+.button_block_section_one-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.button_block_section_one-content > h2 {
+  margin-top: 10px;
+  font-family: "Lato";
+  font-size: 12px;
+  font-weight: 900;
+  color: #222222;
+  text-align: right;
+  text-transform: uppercase;
+}
+.button_block_section_one-content > img {
+  margin-top: 10px;
+  width: 56px;
+  font-family: "FontAwesome";
+  font-size: 12px;
+  color: #e4af48;
+  text-transform: uppercase;
+}
+.button_block_section_one-content > p {
+  width: 52px;
+  font-family: "Lato";
+  font-size: 12px;
+  color: #f16d7f;
+  text-transform: uppercase;
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.button_block_section_one > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "FontAwesome";
+  font-size: 16px;
+  color: silver;
+  text-align: right;
+  text-transform: uppercase;
+  margin-left: 55px;
+}
+.button_block_section_three {
+  margin-top: 37px;
+  width: 228px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 900;
+  color: #222222;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+}
+.button_block_button {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 225px;
+  border: 1px solid #f16d7f;
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: bold;
+  color: #f16d7f;
+  text-transform: uppercase;
+}
+.button_block_button:hover {
+  color: white;
+  background-color: #f16d7f;
+}
+.button_block_button_two {
+  margin-top: 11px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 225px;
+  border: 1px solid #eaeaea;
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: bold;
+  color: #4a4a4a;
+  text-transform: uppercase;
+}
+.button_block_button_two:hover {
+  border: 1px solid #f16d7f;
 }
 
 .menu__list:hover .drop {
