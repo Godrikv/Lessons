@@ -259,6 +259,251 @@
   color: black;
 }
 
+.chek__content {
+  margin-top: 82px;
+  display: flex;
+  flex-direction: column;
+}
+.chek__content_block {
+  display: flex;
+  flex-direction: column;
+}
+.chek__content_block-h2 {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: bold;
+  color: #222222;
+  text-transform: uppercase;
+}
+.chek__content_drop {
+  margin-top: 39px;
+  margin-left: 35px;
+  display: none;
+}
+.chek__content_drop_left {
+  display: flex;
+  flex-direction: column;
+}
+.chek__content_drop_left > h2 {
+  font-family: "Lato";
+  font-size: 13px;
+  color: #222222;
+  text-transform: uppercase;
+}
+.chek__content_drop_left > h3 {
+  margin-top: 15px;
+  font-family: "Lato";
+  font-size: 13px;
+  color: #b3b2b2;
+  line-height: 20px;
+}
+.chek__content_drop_left-bottom {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  font-family: "Lato";
+  font-size: 13px;
+  color: #b3b2b2;
+}
+.chek__content_drop_left-bottom > img {
+  margin-right: 4px;
+  height: 8px;
+  width: 8px;
+}
+.chek__content_drop_left-bottom:hover {
+  color: #f16d7f;
+}
+.chek__content_drop_left_button {
+  margin-top: 38px;
+  margin-bottom: 135px;
+  height: 50px;
+  width: 180px;
+  background-color: white;
+  border: 1px solid #eaeaea;
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: bold;
+  color: #4a4a4a;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chek__content_drop_left_button:hover {
+  border: 1px solid #f16d7f;
+  color: #f16d7f;
+}
+.chek__content_drop_right {
+  margin-left: 292px;
+  display: flex;
+  flex-direction: column;
+}
+.chek__content_drop_right > h2 {
+  font-family: "Lato";
+  font-size: 13px;
+  color: #222222;
+  text-transform: uppercase;
+}
+.chek__content_drop_right > h3 {
+  margin-top: 15px;
+  font-family: "Lato";
+  font-size: 13px;
+  color: #b3b2b2;
+  line-height: 20px;
+}
+.chek__content_drop_right > h4 {
+  margin-top: 22px;
+  font-family: "Lato";
+  font-size: 13px;
+  color: #ff0d0d;
+  line-height: 20px;
+}
+.chek__content_drop_right-email {
+  margin-top: 25px;
+  display: flex;
+  font-family: "Lato";
+  font-size: 12px;
+  color: #222222;
+  line-height: 20px;
+}
+.chek__content_drop_right-email > img {
+  height: 6px;
+  width: 6px;
+}
+.chek__content_drop_right-email_input {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  height: 45px;
+  width: 390px;
+  background-color: white;
+  border: 1px solid #eaeaea;
+}
+
+.chek__content_drop_right_button-content {
+  display: flex;
+  margin-top: 32px;
+}
+.chek__content_drop_right_button-content > h2 {
+  margin-top: 20px;
+  margin-left: 32px;
+  font-family: "Lato";
+  font-size: 14px;
+  color: #222222;
+}
+
+.chek__content_drop_right_button {
+  margin-bottom: 135px;
+  height: 50px;
+  width: 180px;
+  background-color: white;
+  border: 1px solid #eaeaea;
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: bold;
+  color: #4a4a4a;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chek__content_drop_right_button:hover {
+  border: 1px solid #f16d7f;
+  color: #f16d7f;
+}
+
+.checkbox input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.checkbox__text_position {
+  margin-top: 34px;
+}
+.checkbox__text_position_two {
+  margin-top: 20px;
+  margin-bottom: 33px;
+}
+
+.checkbox__text {
+  position: relative;
+  padding: 0 0 0 35px;
+  cursor: pointer;
+  font-family: "Lato";
+  font-size: 12px;
+  color: #222222;
+  text-transform: uppercase;
+}
+
+.checkbox__text:before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: 0;
+  height: 14px;
+  width: 14px;
+  border: 1px solid #CDD1DA;
+  border-radius: 50%;
+  background: #FFF;
+}
+
+.checkbox__text:after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 4px;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background: #9FD468;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.checkbox input:checked + .checkbox__text:after {
+  opacity: 1;
+}
+
+.btn {
+  margin-top: 72px;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+#pseudoBtn:checked ~ .chek__content_drop_one {
+  display: flex;
+}
+
+#pseudoBtn1:checked ~ .chek__content_drop_two {
+  display: flex;
+}
+
+#pseudoBtn2:checked ~ .chek__content_drop_three {
+  display: flex;
+}
+
+#pseudoBtn3:checked ~ .chek__content_drop_four {
+  display: flex;
+}
+
+#pseudoBtn4:checked ~ .chek__content_drop_five {
+  display: flex;
+}
+
+#pseudoBtn5:checked ~ .chek__content_drop_six {
+  display: flex;
+}
+
+/* Стилизация псевдокнопки */
+.btn {
+  display: flex;
+  cursor: pointer;
+}
+
 * {
   margin: 0;
   padding: 0;
