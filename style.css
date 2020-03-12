@@ -777,6 +777,7 @@ details[open] > summary::after {
 .button_block_button:hover {
   color: black;
   border: 1px solid black;
+  transition: all 0.5s;
 }
 .button_block_button_two {
   margin-top: 11px;
@@ -795,6 +796,7 @@ details[open] > summary::after {
 }
 .button_block_button_two:hover {
   border: 1px solid #f16d7f;
+  transition: all 0.5s;
 }
 
 .menu__list:hover .drop {
@@ -841,6 +843,7 @@ details[open] > summary::after {
 }
 .drop__a:hover {
   color: #f16d7f;
+  transition: all 0.2s;
 }
 .drop__col_position {
   margin-top: 16px;
@@ -1739,6 +1742,7 @@ INPUT:focus {
   background-color: #f16d7f;
   outline-style: none;
   color: #f7f7f8;
+  transition: all 0.6s;
 }
 
 .footer_icon_color {
