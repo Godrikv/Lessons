@@ -29,10 +29,15 @@
        font-family: 'Lato'
        font-size: 13px
        color: rgba(101, 101, 101, 1)
-      &>i
+      &>a
         font-family: 'FontAwesome'
         font-size: 16px
         color: rgba(192, 192, 192, 1)
+        &:hover
+          color: $color-site
+          transform: scale(1.4)
+          transition: color .3s
+
       &_number
         padding-left: 20px
     &_left-text
@@ -69,14 +74,20 @@
     padding-left: 39px
     padding-right: 39px
     margin-top: 72px
-    &>h2
+    &>a
+      color: rgba(74, 74, 74, 1)
       font-family: 'Lato'
       font-size: 14px
       font-weight: bold
+      padding: 10px
       color: rgba(74, 74, 74, 1)
       text-transform: uppercase
-      &>a
-       color: rgba(74, 74, 74, 1)
+      border: 1px solid #f7f7f8
+      &:hover
+        color: $color-site
+        border: 1px solid $color-site
+
+
 
 
 
@@ -220,5 +231,6 @@
         text-transform: uppercase
       &:hover
         background-color: white
+        transition: all .5s
         &>p
           color: black

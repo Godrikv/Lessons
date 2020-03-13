@@ -280,6 +280,7 @@ details[open]>summary::after
       color: black
       border: 1px solid black
       transition: all .5s
+      transform: rotate(360deg)
 
   &_button_two
     margin-top: 11px
@@ -298,6 +299,7 @@ details[open]>summary::after
     &:hover
       border: 1px solid $color-site
       transition: all .5s
+      transform: rotate(-360deg)
 .menu__list:hover .drop 
   display: flex
 
@@ -600,11 +602,10 @@ INPUT:focus
   margin-bottom: 40px
   position: relative
 
-
 .prcards__box_main:hover
-
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.16)
-
+  transform: scale(1.05)
+  transition: all 1s
 
 .prcards__box_img
   width: 100%
@@ -1598,6 +1599,9 @@ input[type=range]::-webkit-slider-thumb
   font-size: 16px
   font-weight: 300
   color: rgba(196, 196, 196, 1)
+  &:hover
+    color: $color-site
+    transition: color .3s
 
 
 
@@ -1617,6 +1621,11 @@ input[type=range]::-webkit-slider-thumb
   border: 1px solid $color-site_two
   border-radius: 3px
   width: 130px
+  &:hover
+    background-color: #f7f7f8
+    color: #2f2f2f
+    transition: all 0.5s
+
 
 
 .nav__footer_butoon 
