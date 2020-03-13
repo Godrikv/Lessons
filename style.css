@@ -591,7 +591,7 @@ li {
 }
 .promo__h1 {
   font-size: 60px;
-  font-weight: 900;
+  font-weight: bold;
   color: #222222;
   letter-spacing: 0.03em;
   line-height: 45px;
@@ -599,7 +599,7 @@ li {
 }
 .promo__h2 {
   font-size: 40px;
-  font-weight: 900;
+  font-weight: bold;
   color: #222222;
   letter-spacing: 0.03em;
   line-height: 33px;
@@ -725,7 +725,7 @@ details[open] > summary::after {
   margin-top: 10px;
   font-family: "Lato", sans-serif;
   font-size: 12px;
-  font-weight: 900;
+  font-weight: bold;
   color: #222222;
   text-align: right;
   text-transform: uppercase;
@@ -764,7 +764,7 @@ details[open] > summary::after {
   width: 228px;
   font-family: "Lato", sans-serif;
   font-size: 16px;
-  font-weight: 900;
+  font-weight: bold;
   color: #222222;
   text-transform: uppercase;
   display: flex;
@@ -780,7 +780,7 @@ details[open] > summary::after {
   border: 1px solid #f16d7f;
   font-family: "Lato", sans-serif;
   font-size: 14px;
-  font-weight: 900;
+  font-weight: bold;
   color: #f16d7f;
   text-transform: uppercase;
 }
@@ -801,7 +801,7 @@ details[open] > summary::after {
   border: 1px solid #eaeaea;
   font-family: "Lato", sans-serif;
   font-size: 14px;
-  font-weight: 900;
+  font-weight: bold;
   color: #4a4a4a;
   text-transform: uppercase;
 }
@@ -916,7 +916,7 @@ INPUT:focus {
 .nav {
   font-family: "Lato", sans-serif;
   font-size: 14px;
-  font-weight: 900;
+  font-weight: bold;
   color: #222222;
   line-height: 26px;
   text-transform: uppercase;
@@ -964,7 +964,7 @@ INPUT:focus {
   width: 136px;
   font-family: "Lato", sans-serif;
   font-size: 18px;
-  font-weight: 900;
+  font-weight: bold;
   color: #222222;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -972,7 +972,7 @@ INPUT:focus {
 .prbanner__lefr_one-text_color {
   font-family: "Lato", sans-serif;
   font-size: 29px;
-  font-weight: 900;
+  font-weight: bold;
   color: #f16d7f;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -999,7 +999,7 @@ INPUT:focus {
   width: 189px;
   font-family: "Lato", sans-serif;
   font-size: 17px;
-  font-weight: 900;
+  font-weight: bold;
   color: #222222;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -1007,7 +1007,7 @@ INPUT:focus {
 .prbanner__lefr_two-text_color {
   font-family: "Lato", sans-serif;
   font-size: 29px;
-  font-weight: 900;
+  font-weight: bold;
   color: #f16d7f;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -1040,7 +1040,7 @@ INPUT:focus {
   width: 125px;
   font-family: "Lato", sans-serif;
   font-size: 18px;
-  font-weight: 900;
+  font-weight: bold;
   color: #222222;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -1048,7 +1048,7 @@ INPUT:focus {
 .prbanner__right_one-text_color {
   font-family: "Lato", sans-serif;
   font-size: 30px;
-  font-weight: 900;
+  font-weight: bold;
   color: #f16d7f;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -1075,7 +1075,7 @@ INPUT:focus {
   width: 140px;
   font-family: "Lato", sans-serif;
   font-size: 18px;
-  font-weight: 900;
+  font-weight: bold;
   color: #222222;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -1083,7 +1083,7 @@ INPUT:focus {
 .prbanner__right_two-text_color {
   font-family: "Lato", sans-serif;
   font-size: 29px;
-  font-weight: 900;
+  font-weight: bold;
   color: #f16d7f;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -1101,7 +1101,7 @@ INPUT:focus {
 .prcards__up_text_one {
   font-family: "Lato", sans-serif;
   font-size: 30px;
-  font-weight: 900;
+  font-weight: bold;
   color: #222222;
 }
 .prcards__up_text_two {
@@ -1151,7 +1151,7 @@ INPUT:focus {
 
 .prcards__box_price {
   font-size: 16px;
-  font-weight: 900;
+  font-weight: bold;
   color: #f16d7f;
   text-transform: uppercase;
   margin-top: 16px;
@@ -1159,7 +1159,7 @@ INPUT:focus {
 
 .prcards__box_add {
   font-size: 13px;
-  font-weight: 900;
+  font-weight: bold;
   color: #ffffff;
   height: 39px;
   width: 123px;
@@ -1215,7 +1215,7 @@ INPUT:focus {
   width: 145px;
   font-family: "Lato", sans-serif;
   font-size: 16px;
-  font-weight: 900;
+  font-weight: bold;
   text-align: center;
   padding-bottom: 10px;
 }
@@ -1249,7 +1249,7 @@ INPUT:focus {
   width: 293px;
   font-family: "Lato", sans-serif;
   font-size: 54px;
-  font-weight: 900;
+  font-weight: bold;
   color: white;
 }
 
@@ -1260,7 +1260,7 @@ INPUT:focus {
 .discount_left__text_women {
   font-family: "Lato", sans-serif;
   font-size: 32px;
-  font-weight: 900;
+  font-weight: bold;
   color: white;
 }
 
@@ -1292,7 +1292,7 @@ INPUT:focus {
   width: 126px;
   font-family: "Lato", sans-serif;
   font-size: 20px;
-  font-weight: 900;
+  font-weight: bold;
   color: #fbfbfb;
 }
 
@@ -1329,7 +1329,7 @@ INPUT:focus {
   width: 162px;
   font-family: "Lato", sans-serif;
   font-size: 20px;
-  font-weight: 900;
+  font-weight: bold;
   color: #fbfbfb;
 }
 
@@ -1366,7 +1366,7 @@ INPUT:focus {
   width: 168px;
   font-family: "Lato", sans-serif;
   font-size: 20px;
-  font-weight: 900;
+  font-weight: bold;
   color: #fbfbfb;
 }
 
@@ -1458,7 +1458,7 @@ INPUT:focus {
   width: 82px;
   font-family: "Lato", sans-serif;
   font-size: 16px;
-  font-weight: 900;
+  font-weight: bold;
   color: #f16d7f;
 }
 
@@ -1582,7 +1582,7 @@ INPUT:focus {
 .footer__first_brand_color {
   font-family: "Lato", sans-serif;
   font-size: 26px;
-  font-weight: 900;
+  font-weight: bold;
   color: #f16d7f;
   text-align: center;
   letter-spacing: 0.03em;
@@ -1616,7 +1616,7 @@ INPUT:focus {
   width: 94px;
   font-family: "Lato", sans-serif;
   font-size: 18px;
-  font-weight: 900;
+  font-weight: bold;
   color: #f16d7f;
   letter-spacing: 0.03em;
   line-height: 26px;
@@ -1652,7 +1652,7 @@ INPUT:focus {
   width: 144px;
   font-family: "Lato", sans-serif;
   font-size: 18px;
-  font-weight: 900;
+  font-weight: bold;
   color: #f16d7f;
   letter-spacing: 0.03em;
   line-height: 26px;
@@ -1688,7 +1688,7 @@ INPUT:focus {
   width: 156px;
   font-family: "Lato", sans-serif;
   font-size: 18px;
-  font-weight: 900;
+  font-weight: bold;
   color: #f16d7f;
   letter-spacing: 0.03em;
   line-height: 26px;
@@ -1784,7 +1784,7 @@ INPUT:focus {
 .nav_arrivals {
   font-family: "Lato", sans-serif;
   font-size: 24px;
-  font-weight: 900;
+  font-weight: bold;
   color: #f16d7f;
   line-height: 20px;
   text-transform: uppercase;
@@ -1845,7 +1845,7 @@ INPUT:focus {
   width: 220px;
   font-family: "Lato", sans-serif;
   font-size: 14px;
-  font-weight: 900;
+  font-weight: bold;
   color: #6f6e6e;
   line-height: 20px;
   text-transform: uppercase;
@@ -1879,7 +1879,7 @@ INPUT:focus {
 .filters__trending-now_main {
   font-family: "Lato", sans-serif;
   font-size: 14px;
-  font-weight: 900;
+  font-weight: bold;
   color: #6f6e6e;
   line-height: 20px;
   text-transform: uppercase;
@@ -2136,7 +2136,7 @@ input[type=range]::-webkit-slider-thumb {
   margin-top: 32px;
   font-family: "Lato", sans-serif;
   font-size: 20px;
-  font-weight: 900;
+  font-weight: bold;
   color: #fbfbfb;
   letter-spacing: 0.03em;
 }
@@ -2157,7 +2157,7 @@ input[type=range]::-webkit-slider-thumb {
   margin-top: 25px;
   font-family: "Lato", sans-serif;
   font-size: 20px;
-  font-weight: 900;
+  font-weight: bold;
   color: #fbfbfb;
   letter-spacing: 0.03em;
 }
@@ -2187,7 +2187,7 @@ input[type=range]::-webkit-slider-thumb {
 .women_col {
   font-family: "Lato", sans-serif;
   font-size: 14px;
-  font-weight: 900;
+  font-weight: bold;
   color: #f16d7f;
 }
 
@@ -2202,7 +2202,7 @@ input[type=range]::-webkit-slider-thumb {
   margin-top: 18px;
   font-family: "Lato", sans-serif;
   font-size: 18px;
-  font-weight: 900;
+  font-weight: bold;
   color: #4d4d4d;
   text-align: center;
   text-transform: uppercase;
@@ -2228,14 +2228,14 @@ input[type=range]::-webkit-slider-thumb {
 .page_material {
   font-family: "Lato", sans-serif;
   font-size: 14px;
-  font-weight: 900;
+  font-weight: bold;
   color: #b9b9b9;
 }
 
 .page_material span {
   font-family: "Lato", sans-serif;
   font-size: 14px;
-  font-weight: 900;
+  font-weight: bold;
   color: #2f2f2f;
 }
 
@@ -2243,7 +2243,7 @@ input[type=range]::-webkit-slider-thumb {
   margin-top: 37px;
   font-family: "Lato", sans-serif;
   font-size: 24px;
-  font-weight: 900;
+  font-weight: bold;
   color: #ef5b70;
 }
 
@@ -2260,7 +2260,7 @@ input[type=range]::-webkit-slider-thumb {
 .page_filter_block h1 {
   font-family: "Lato", sans-serif;
   font-size: 14px;
-  font-weight: 900;
+  font-weight: bold;
   color: #2f2f2f;
 }
 
@@ -2312,7 +2312,7 @@ input[type=range]::-webkit-slider-thumb {
   outline-style: none;
   font-family: "Lato", sans-serif;
   font-size: 16px;
-  font-weight: 900;
+  font-weight: bold;
   cursor: pointer;
 }
 .page_butoon > img {
@@ -2338,7 +2338,7 @@ input[type=range]::-webkit-slider-thumb {
   margin-top: 122px;
   font-family: "Lato", sans-serif;
   font-size: 24px;
-  font-weight: 900;
+  font-weight: bold;
   color: #4d4d4d;
   text-align: center;
   line-height: 20px;
